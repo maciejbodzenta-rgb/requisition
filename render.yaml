@@ -5,7 +5,7 @@ services:
     plan: free
     dockerfilePath: ./Dockerfile
     envVars:
-      - key: TURNSTILE_SITE_KEY
+      - key: 0x4AAAAAAFrVaIJdkuxhUm74
         sync: false 
-      - key: TURNSTILE_SECRET_KEY
+      - key: 0x4AAAAAAFrVaBGtq85ZnOCNx1GAxzeEvZA
         sync: false 
