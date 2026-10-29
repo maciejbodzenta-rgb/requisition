@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: secure-rfp-portal
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: TURNSTILE_SITE_KEY
+        sync: false 
+      - key: TURNSTILE_SECRET_KEY
+        sync: false 
